@@ -54,7 +54,7 @@ ROOT_URLCONF = 'password_generator.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'/home/clifton/Desktop/programming/webdev/Django/password_generator-project/generator/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
